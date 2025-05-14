@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Rent2Me API** is an **ASP.NET Core 5 Web API** that powers the Car Rental System. It manages all business logic, database operations, authentication, contract workflows, rental processes, and real-time communication for admins, car owners, and renters, following clean architecture principles and industry best practices.
+The **Rent2Me API** is an **ASP.NET Core 5 Web API** that powers the Car Rental System. It manages all business logic, database operations, authentication, contract workflows, rental processes, and real-time communication for admins, car owners, and renters, following N-tier archticture principles and industry best practices.
 
 ---
 
@@ -36,7 +36,7 @@ The **Rent2Me API** is an **ASP.NET Core 5 Web API** that powers the Car Rental 
   - Global exception error handling.
 
 - **Real-Time Notifications**  
-  - \SignalR integration for instant updates on rental status.
+  - SignalR integration for instant updates on rental status.
 
 - **Logging & Documentation**  
   - Structured logging with Serilog.  
@@ -59,7 +59,7 @@ The **Rent2Me API** is an **ASP.NET Core 5 Web API** that powers the Car Rental 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/crs-pis-backend.git
+   git clone https://github.com/AyaKarama7/Rent2Me-GP.git
    ```
 
 2. **Configure Database**  
